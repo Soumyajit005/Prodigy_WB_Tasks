@@ -1,0 +1,98 @@
+body {
+    font-family: 'Courier New', Courier, monospace; /* Digital-style font */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #000428, #004e92); /* Gradient background */
+    color: #00ff00; /* Digital green text */
+}
+
+.container {
+    text-align: center;
+    background: #111;
+    padding: 30px;
+    border: 5px solid #00ff00; /* Digital frame */
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    width: 400px;
+}
+
+h1 {
+    color: #00ff00;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00;
+}
+
+.display {
+    font-size: 3rem;
+    margin: 20px 0;
+    letter-spacing: 2px;
+    background: #222;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 3px solid #00ff00; /* Digital-style frame for display */
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.8), 0 0 10px #00ff00;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+button {
+    background: #222;
+    color: #00ff00;
+    border: 2px solid #00ff00;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3), 0 0 5px #00ff00;
+}
+
+button:hover {
+    background: #00ff00;
+    color: #111;
+    border-color: #00ff00;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5), 0 0 10px #00ff00;
+}
+
+.laps {
+    margin-top: 20px;
+}
+
+.laps h2 {
+    color: #00ff00;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    text-shadow: 0 0 5px #00ff00;
+}
+
+#lap-times {
+    list-style-type: none;
+    padding: 0;
+    max-height: 150px;
+    overflow-y: auto;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+    padding: 10px;
+    background: #222;
+}
+
+#lap-times li {
+    background: rgba(0, 255, 0, 0.1);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    color: #00ff00;
+    text-shadow: 0 0 5px #00ff00;
+    font-size: 0.9rem;
+}
